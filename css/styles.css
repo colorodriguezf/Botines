@@ -1,0 +1,936 @@
+body {
+    background-color:rgb(#fff);
+    font-family:  Nova,-apple-system,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+}
+
+/* NAAAAAV */
+.nav {
+    margin-left: -20%;
+}
+
+.contenedor {
+    display: flex;
+    background-color: rgb(5, 5, 5);
+    position: sticky;
+    top: 0;
+}
+.arribaNav {
+    height:40px;
+    background-color:rgb(20, 20, 20);
+    display: flex;
+}
+.arribaNav h1 {
+    font-size: 0.8rem;
+    color: white;
+}
+.arribaNav h1 span {
+    padding-left:20px;
+    padding-right: 25px;
+    font-size:1.3rem;
+}
+.futbolNav {
+    color: white;
+    text-decoration:none;
+}
+.logo {
+    padding-left: 10%;
+    padding-right: 34%;
+}
+header h1 {
+    margin-top: 10px;
+    color: white;
+    font-size: 2.5rem;
+    font-style: italic;
+    font-weight: bold;
+}
+.aLogo {
+    text-decoration:none;
+    color: white;
+}
+.aLogo:hover{
+    color: white;
+}
+.nav-link {
+    color: rgb(255, 255, 255);
+    font-size:x-large;
+    display:flex;
+}
+.arribaNav div a {
+    font-size:0.8rem;
+}
+.fotoPerfilNav {
+    width: 50%;
+    margin:2%;
+    margin-left: -10%;
+    border-radius: 90%;
+}
+.perfilYcerrar {
+    display:flex;
+    margin-left: 54%;
+}
+.usuario-logOut {
+    display:flex;
+    width: 140px;
+    
+}
+.inicioYregistro {
+display: flex;
+margin-left: 54%;
+
+}
+.arribaNav .argentina {
+    width:7%;
+    margin-right: 5px;
+}
+.login {
+    margin-left:-11%;
+}
+.logOut {
+    width:100px;
+    
+}
+.login, .logOut{
+    font-weight: bold;
+    width:100%;
+}
+/* MENU DESPLEGABLE */
+
+li ul li a {
+    margin-top:5px;
+}
+    ul ul {
+    list-style: none;
+    display: none;
+    }   
+        li:hover ul {
+            display: block;  
+            position: relative;        
+            left: -15%;  
+        }
+
+/* -------------------------------------------------------- */
+
+/* FOOTER */
+
+footer {
+    background-color:black; 
+    margin-top: 40px;
+    padding-bottom: 10px;
+}
+.redes {
+    text-align: center;
+    font-size: 1.5rem;
+    background-color:rgb(10, 10, 10);
+}
+.instagram {
+    color: rgb(219, 118, 118);
+}
+.facebook {
+    color:rgb(112, 112, 224)
+}
+.twitter {
+    color: rgb(169, 226, 245);
+}
+.redes p span {
+    padding-left: 60px;
+}
+.argentinaSpan {
+    color: white;
+    font-size: 1.1rem;
+}
+.argentina {
+    width: 2%;
+    font-weight: bold;
+    margin-left: 10%;
+}
+.span2 {
+    color: rgb(206, 202, 202);
+    padding-left:40%;
+    font-size: 1rem;
+}
+footer div {
+    background-color: grey;
+}
+
+/* HOME */
+
+.marcas {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    font-style: italic;
+    text-align: center;
+    margin-top:25px;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.marcasHome {
+    display: flex;
+    background-color:white;
+    border-radius: 1%;
+    width:90%;
+    transition:all 0.5s ease;
+    margin-left:3.3%;
+}
+
+.logo1, .logo2, .logo3, .logo4 {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    margin: 1%;
+    transition:all 0.5s ease;
+    background-color:rgb#fff;
+    transition:all 0.5s ease;
+}
+.logo1:hover, .logo2:hover, .logo3:hover, .logo4:hover {
+    box-shadow: 1px 6px 8px 5px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transform:scale(1.1);
+}
+.logoAdidas, .logoNike, .logoPuma, .logoLotto {
+    width:100%;
+}
+.categorias{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    font-style: italic;
+    text-align: center;
+    margin-top:50px;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.hrIzq {
+    width: 25%;
+    margin-left: 11%;
+    margin-top: -2%;
+}
+.hrDer {
+    width: 28%;
+    margin-left: 62%;
+    margin-top: -1%;
+}
+.contenedorCategorias {
+    display: grid;
+    margin-top: 50px;
+    grid-row-gap: 5%;
+    grid-column-gap: -10px;
+    grid-template-areas: 
+    "firme blando"
+    "sintetico futsal";
+}
+.terrenoFirme {
+    grid-area: firme;
+    margin-left: 30%;
+}
+.terrenoBlando{
+    grid-area:blando;
+}
+.pastoSintetico{
+    grid-area:sintetico;
+    margin-left: 30%;
+}
+.futsal {
+    grid-area: futsal;
+}
+.terrenoBlando, .futsal, .terrenoFirme, .pastoSintetico {
+    width:60%;
+    padding: 0;
+    transition:all 0.5s ease;
+    background-color:rgb#fff;
+}
+.terrenoBlando:hover, .futsal:hover, .terrenoFirme:hover, .pastoSintetico:hover {
+    transform:scale(1.06);
+    box-shadow: 3px 4px 8px 3px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transform:scale(1.1);
+}
+.sobreNosotros {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    font-style: italic;
+    padding-left: 20%;
+    margin-top: 200px;
+    margin-left: 6%;
+}
+.sobreNosotros h1 {
+    color: black;
+    font-weight: bold;
+    font-size:2rem;
+}
+.sobreNosotros p {
+    margin-top: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: none;
+    font-style: normal;
+    margin-right: 100px;
+    padding-right: 400px;
+    font-size: 1.3rem;
+    color: black;
+}
+/* ---------------------------------------------------------------------------------------------- */
+/* USUARIOS */
+.fotoListaUsuarios {
+    width: 10%;
+    border-radius: 100%;
+}
+.tituloUsuarios {
+    font-size: 3em;
+    margin-top:3%;
+    margin-left: 40%;
+}
+.contenedorUsuarios {
+    margin-top:2%;
+    text-align:center;
+}
+
+.liUsuarios li {
+    font-weight: bold;
+    font-size: 1.8em;
+    list-style: none;
+}
+
+
+/* ---------------------------------------------------------------------------------------------- */
+/* BOOOOOT LIST */
+
+.tituloYfiltro {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    font-style: italic;
+    padding-top:30px;
+    text-align: center;
+    padding-right: 3%;
+}
+.tituloYfiltro h1 {
+    font-weight:bold;
+    font-size: 3.5rem;
+}
+.tituloYfiltro label {
+    font-weight:bold;
+}
+.contenedorDetalles{
+    display: inline-block;
+    border: solid 1px grey;
+    background-color:white;
+    border-radius: 4%;
+    width:30%;
+    margin-top:50px;
+    margin-left:2%;
+    padding-bottom: 1%;
+    transition:all 0.5s ease;
+}
+.contenedorDetalles:hover {
+    box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transform:scale(1.1);
+}
+.hrefBotines {
+    text-decoration:none;
+}
+.modelo, .talle, .precio, .botonesByE, .marca {
+    text-align: center;
+    text-transform: uppercase;
+}
+.marca {
+    font-weight: bold;
+    font-size: 1.8rem;
+    margin-top:15px;
+    margin-bottom: 15px;
+}
+.modelo {
+    font-size:1.3rem;
+}
+.talle {
+    font-size: 1.1rem;
+    color: black;
+    margin-top: 10px;
+}
+.precio {
+    color: rgb(231, 73, 73);
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+.borrar {
+    background-color: rgb(221, 57, 57);
+    border: black;
+}
+.borrar:hover {
+    background-color:rgb(245, 0, 0)
+}
+.editar {
+    border: black;
+    background-color: rgb(43, 184, 43);
+}
+.editar:hover {
+    background-color: rgb(2, 163, 2);
+}
+.errorBotines {
+    width: 99%;
+    margin: 1px;
+}
+.tamañoImagenBootList {
+    width: 99%;
+    margin: 1px;
+}
+.paginado {
+    margin-top: 3%;
+    margin-left: 40%;
+}
+
+.paginado a, .paginado button {
+    font-size:2rem;
+}
+
+/* BOOT DETAILS */
+
+.container-details {
+    margin-top: 3%;
+    margin-left: 3%;
+    margin-bottom: 15%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    justify-content: center;
+    width: 90%;
+    display: flex;
+}
+.container-details h2 {
+    font-size: 2rem;
+}
+.img-details {
+    width: 100%;
+    height:110%;
+    border-radius: 7%;
+}
+.botinSinFoto {
+    border:solid 2px rgb(209, 208, 208);
+    width: 100%;
+    height: 100%;
+}
+hr {
+    width: 100%;
+    color: green;
+}
+.text-area-comentario {
+    background-color: rgb(252, 247, 247);
+}
+#agregarComentario {
+    margin-top: 2%;
+}
+.tituloDetail {
+    color: rgb(44, 48, 59);
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container-talle, .container-precio, .container-descripcion, .container-categoria {
+    font-style: italic;
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+.container-detail {
+    color: rgb(38, 61, 138);
+    width: 80%;
+    padding-left: 4%;
+    display: inline-block;
+    
+}
+
+.error {
+    margin-left: 20%;
+    font-size: 2rem;
+    color: rgb(218, 14, 14);
+}
+
+.promedioPuntaje {
+    border: solid 1px rgb(153, 130, 130);
+    border-radius: 6%;
+    background-color:rgb(223, 187, 27);
+    width: 10%;
+    margin-left: 60%;
+    margin-top: -5%;
+    margin-bottom: 1%;
+}
+.promedioPuntaje h2, .promedioPuntaje p {
+    font-size: 2.5rem;
+    color:rgb(255, 255, 255);
+    text-align: center;
+}
+.promedioPuntaje p{
+    font-size: 3.5rem;
+    font-weight: bolder;
+}
+.fotoPerfilComentarios {
+    width: 60%;
+    height:90%;
+    border-radius: 10%;
+}
+.nombreUsuarioComentario{
+    font-size: 2rem;
+color: rgb(126, 46, 102);
+font-weight:bold;
+margin-top: -10%;
+}
+#app h1 {
+    margin-left: 15%;
+}
+.fecha {
+    margin-left:65%;
+    color: grey;
+}
+.puntajeComentario{
+    font-size: 1.5rem;
+}
+.contenedorComentarios {
+    display: flex;
+}
+
+.usuarioUsuario {
+    display: inline-block;
+    display: inline;
+    margin-top: 3%;
+    margin-left: -6%;
+}
+.usuarioUsuario p {
+    font-size: 2.1rem;
+}
+.usuarioPuntajeEstrellas {
+    font-size: 2.5rem !important;
+    color: rgb(223, 223, 0);
+}
+
+#lista-comentarios {
+   width: 60%;
+   margin-left: 15%;
+}
+.fotoUsuario {
+    width: 40%;
+}
+/* GRID PARA COMENTARIOS */
+/* .contenedorComentarios{
+    display: grid;
+    grid-template-areas: 
+    "foto usuario"
+    "foto puntaje"
+    "foto comentario";
+}
+.fotoUsuario {
+grid-area: foto;
+}
+.usuarioUsuario {
+grid-area: usuario;
+}
+.puntajeUsuario {
+grid-area:puntaje;
+}
+.comentarioUsuario {
+grid-area: comentario;
+} */
+/* ----------------------------------------------------------------------------------------------- */
+.vovler{
+    width: 0%;
+    margin-top: 8%;
+    margin-left: 50%;
+    text-decoration: none;
+    font-style: oblique;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    display: flex;
+    color: rgb(9, 9, 201);
+    justify-content: center;
+    
+}
+.vovler:hover {
+    color: rgb(67, 180, 255);
+    transition: 0.4s;
+}
+
+
+/* FILTRO */
+
+.contenedorFiltro {
+    display: flex;
+    margin-top: -3.6%;
+    
+    
+}
+
+.selectFiltro {
+    margin-top: 10px;
+    margin-left: 42%;
+    padding-right: 20px;
+    text-align: center;
+    width:15%;
+}
+.selectFiltroP {
+    margin-top: 10px;
+    margin-left: 31.4%;
+    padding-right: 22px;
+    text-align: center;
+    width:15%;
+}
+.btn-filtroB, .btn-filtroV {
+    position: absolute;
+    margin-left: 41%;
+    margin-top: 15px;
+    border: none;
+    height:40px;
+    font-size: 1.4rem;
+    border-radius:40%;
+    background-color:white;
+    transition:all 0.7s ease;
+}
+.btn-filtroP {
+    position: absolute;
+    margin-left: 32%;
+    margin-top: 15px;
+    border: none;
+    height:40px;
+    font-size: 1.4rem;
+    border-radius:40%;
+    background-color:white;
+    transition:all 0.7s ease;
+}
+.btn-filtroB:active, .btn-filtroV:active {
+    color:rgb(182, 60, 60);
+    cursor:progress;
+}
+.btn-filtroB:hover, .btn-filtroV:hover {
+    background-color:rgb(86, 175, 204);
+    color: rgb(210, 234, 235);
+}
+
+/* CREATE BOOT Y UPDATE BOOT*/
+
+.agregarBotin {
+    margin-top:30px;
+    margin-bottom:17px;
+    font-weight: bold;
+    text-align: center;
+}
+.formAgregarBotin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 500px;
+    height: 100%;
+    margin-top: 40px;
+}
+.form-select {
+    font-size:1.3rem;
+}
+.formMitad {
+    display: flex;
+}
+.formSegundos {
+    padding-left: 100px;
+}
+.btn-form {
+    font-size: 1.2rem;
+    margin-top:40px;
+    margin-left:-50px;
+    margin-bottom: 15px;
+    background-color: black;
+}
+.btn-form:hover {
+    background-color:rgb(119, 118, 118);
+    transition: X(3px);
+}
+.btn-form:active {
+    background-color:rgb(119, 118, 118);
+    transform: translateY(10px);
+}
+.errorPermiso {
+    margin-top: 2%;
+    color: red;
+    text-align: center;
+}
+.img-error {
+    width:100%;
+    height:580px;
+}
+
+/* USER Y REGISTER*/
+
+.h2iniciarSesion {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    font-style: italic;
+    margin-left: 10%;
+    margin-top: 4%;
+}
+.contenedorIngresar {
+    margin-top: 50px;
+    display: flex;
+}
+.containerUser {
+    margin-bottom: 4.5%;
+    display: flex;
+    margin-left: 70px;
+}
+
+.submitUser{
+    width: 500px;
+    margin-top: 30px;
+    
+    background-color: rgb(31, 29, 29);
+    box-shadow: 1px 2px rgb(49, 49, 49);
+    border: solid 1px black;
+}
+.sumbitUser:hover {
+    background-color: black;
+    border: solid 1px black;
+    transition: X(3px);
+}
+.sumbitUser:active {
+    background-color: black;
+    transform: translateY(10px);
+}
+.submitRegister {
+    width: 500px;
+    margin-top: 30px;
+    background-color: rgb(31, 29, 29);
+    box-shadow: 1px 2px rgb(49, 49, 49);
+    border: solid 1px black;
+}
+.sumbitRegister:hover {
+    background-color: black;
+    border: solid 1px black;
+    transition: X(3px);
+}
+.sumbitRegister:active {
+    background-color: black;
+    transform: translateY(10px);
+}
+.noCuenta {
+    
+    margin-top: 10px;
+    text-align: unset;
+}
+
+#email, #password, #nombre, #apellido, #nombre_usuario, #fotoPerfil {
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.img-diego {
+    width: 65%;
+    height: 80%;
+    border-radius:5%;
+}
+.img-messi {
+    width: 100%;
+    margin-left: -300px;
+    height:100%;
+    border-radius:5%;
+}    
+
+/* SLIDER CON CSS: 
+FOTOS HOME 
+
+.slider {
+    width: 100%;
+    overflow: hidden;
+}
+.slider ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: cambio 20s infinite alternate;
+}
+.slider ul li {
+    width: 100%;
+    list-style: none;
+}
+.slider img {
+    box-shadow: 3px 4px 8px 3px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 100%;
+}
+
+@keyframes cambio {
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+    
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+    
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+    
+    75% {margin-left: -300%;}
+    100% {margin-left: -300%;}
+    
+} */
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    height: 562px;
+    overflow: hidden;
+}
+.img1, .img2, .img3, .img4 {
+    width: 100%;
+    height:70% !important;
+}
+.boton {
+    width: 40px;
+    height: 50px;
+}
+
+/*  */
+.form-alta {
+    justify-content: center;
+    
+}
+form input {
+    width:500px;
+    height:60px;
+    border: 1px solid black;
+}
+.tile .tile-logo {
+    width: 40%;
+    height: auto;
+    position: relative;
+}
+.inputFiltro {
+    width: 20%;
+    height:40px;
+    border-radius: 10%;
+}
+label {
+    font-size:1.8rem;
+}
+::placeholder {
+    font-size: 1.1em;
+}
+option {
+    width:140px;
+}
+
+/*MARCAS */
+
+.nuevaMarca {
+    width: 2    0%;
+    height:40px;
+}
+.btn-nuevaMarca {
+    width:5%;
+    height:40px;
+}
+.contenedorFormNewMark {
+    text-align: center;
+    margin-bottom: 5%;
+}
+.allMarks {
+    color:#0d6efd;
+    text-transform: uppercase;
+}
+.contenedorMarcasYbtn {
+    display: flex;
+    align-items: flex-start;
+}
+.borrar2 {
+    background-color: rgb(221, 57, 57);
+    border: black;
+    margin-top: 10px;
+    margin-left: 40px;
+    height:40px;
+    padding-top: 8px;
+    
+}
+.borrar2:hover {
+    background-color:rgb(245, 0, 0);
+}
+.editar2 {
+    border: black;
+    background-color: rgb(43, 184, 43);
+    margin-top: 10px;
+    margin-left: 40px;
+    height:40px;
+    padding-top: 8px;
+    
+}
+.editar2:hover {
+    background-color: rgb(2, 163, 2);
+}
+.containerForecahMarcas {
+margin-left:25%;
+}
+.botonesByE2 {
+    margin-left: 5%;
+    align-items: flex-end;
+    text-transform: uppercase;
+    width:100%;
+  
+}
+
+
+
+
+
+.fotoPerfilComentario {
+    width:7%;
+    height:100%;
+    border-radius:100px;
+    border: 1px solid rgb(76, 131, 148);
+}
+.estrellas {
+    margin-top: -6%;
+    margin-left: 50%;
+}
+.nombreUsuarioYFoto {
+    display: flex;
+}
+.nombreUsuarioYFoto img {
+    margin-right: 1%;
+}
+.nombreUsuarioYFoto h3 {
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.form-comentario {
+    border: groove 8px rgb(236, 193, 193);
+    border-radius: 2%;
+    background-color:rgb(255, 246, 246);
+    padding: 10px;
+    margin-top: 7%;
+    margin-left: 100px;
+    margin-bottom: 6%;
+    width: 60%;
+
+  }
+  .labelFiiltroPuntaje {
+      color: black;
+  }
+  .labelFiiltroPuntaje:hover {
+      color: black;
+  }
+  
+  .form-comentario p {
+    text-align: center;
+  }
+  
+  .form-comentario label {
+    font-size: 2rem;
+  }
+  
+  input[type="radio"] {
+    display: none;
+  }
+  
+  label {
+    color: rgb(206, 200, 200);
+  }
+  
+  .clasificacion {
+    margin-top:-0.7%;
+    margin-left: 5%;
+    direction: rtl;
+    unicode-bidi: bidi-override;
+  }
+  
+  label:hover,
+  label:hover ~ label {
+    color: orange;
+  }
+  
+  input[type="radio"]:checked ~ label {
+    color: orange;
+  }
